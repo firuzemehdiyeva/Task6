@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding:0;
+ font-size: 'Poppins',sans-serif;
+ list-style: none;
+}
+body{
+  
+}
+.navbar{
+    height: 20vh;
+    width: 100%;
+    background-color: red;
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.h2{
+    cursor: pointer;
+    transform:0.5;
+}
+a:hover{
+    color: blue;
+}
+h2:hover{
+    color:blueviolet;
+}
+ul{
+    display: flex;
+    gap:50px;
+}
+ul a:hover{
+    background-color: blue;
+    transition: 0.2s;
+}
+
+.nav-img{
+    width: 138px;
+color: rgb(199, 60, 18) ;
+}
+.nav-img img{
+    width: 100%;
+    font-size: 60px;
+}
+ul li{
+    font-size: 30px;
+}
+ul li a:hover{
+background-color: blue;
+
+}
+
+.image h1{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+  color: white;
+  font-size: 24px; 
+  color: rgb(199, 60, 18);
+    text-shadow: 1px 1px 1px;
+    letter-spacing: 1px;
+    font-size: 60px;
+   
+
+
+}
+.image{
+    background-image:url(qalatasaray.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.h1{
+    font-style: normal;
+    color: rgb(199, 60, 18); 
+    background-color: #f9f9f9; 
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(145, 37, 4, 0.5);
+}
+.p{
+    text-align: center;
+    padding: 5px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px; 
+}
+.product img{
+    height: 200px;
+    margin: 1rem;
+    transition: oll 0.5s;
+}
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-wrap:wrap;
+    margin-top: 80px;
+
+}
+.h2{
+    text-align: center;
+    margin-bottom:5ren;
+    font-size:4ren;
+}
+.product{
+    overflow: hidden;
+    background:rgba(240, 232, 127, 0.548) ;
+    color: rgb(214, 71, 119);
+    text-align: center;
+    width: 240px;
+    height: 400px;
+    padding: 5ren;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: radius 1.2em;
+    margin: 1rem;  
+}
+.product a:link, .product b:visited{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+    padding: 1.2rem 3rem;
+    border-radius: 1rem;
+    font-size: 14px;
+    transition: all 0.2s;
+
+}
+.product :hover img{
+    scale: 1.1;
+
+}
+.product .product-name, .product .prico{
+    font-size: 18px;
+}
+.product:hover{
+    box-shadow: 5px 15px 25px white;
+}
+.product a:hover{
+    transform: scale(1.1);
+}
